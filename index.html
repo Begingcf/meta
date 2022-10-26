@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alejandra Avila</title>
+    <link rel="stylesheet" href="css/master.css">
+    </head>
+    <body>
+<!--barra de navegacion-->
+<div class="logo">
+<a href="#">HANAAVI</a>
+</div>
+
+<!--fin contenedor logo-->
+<!--inicio de menu web-->
+<div>
+  <ul class="nav-links">
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">¿Quién soy?</a></li>
+    <li><a href="#">Portafolio</a></li>
+    <li><a href="#">Contacto</a></li>
+  </ul>
+</div>
+</nav>
+<!--fin menu web-->
+<section class="home"></section>
+<div class="text">
+  <p><h1>SOBRE MÍ</h1></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus feugiat varius. Quisque tempus, magna at consectetur efficitur, nunc ex varius mauris, vitae maximus nisi risus ut tellus. Phasellus condimentum mi interdum neque rutrum porta. Sed suscipit mi velit, quis tristique turpis dapibus in. Aenean libero lacus, sodales vitae ligula a, ullamcorper feugiat dolor. Suspendisse ultrices et ipsum non molestie. Praesent nunc dolor, pulvinar nec fermentum in, ullamcorper non orci. Fusce at augue turpis. Nunc nunc erat, dictum semper convallis nec, tristique nec tellus. Quisque tincidunt eros id leo congue tempor a sed lectus. Quisque ac urna convallis odio iaculis convallis eget elementum elit. Proin ornare dapibus ultrices.</p>
+</div>
+<!--area de java-->
+<script>
+let nav = document.querySelector("nav");
+   window.onscroll = function(){
+     if(document.documentElement.scrollTop > 20){
+       nav.classList.add("sticky");
+     }else {
+       nav.classList.remove("sticky");
+     }
+   }
+
+
+   </script>
+ </body>
+</html>
